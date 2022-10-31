@@ -1,0 +1,27 @@
+.color_1 {
+  background-color: #1D3557;  
+  color: #F1FAEE;
+}
+
+.color_2 {
+    background-color: #E63946;  
+    color: #F1FAEE;
+  }
+  
+.color_3 {
+    background-color: #457B9D;  
+    color: #F1FAEE;
+  }
+  
+
+  .color_3 h1 {
+    margin:1em;
+}
+
+.color_4{
+  padding-bottom: 20%;
+  background-color: #457B9D;
+}
+#ahorcadito{
+  width: 400px;
+}

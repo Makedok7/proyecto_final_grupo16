@@ -1,0 +1,46 @@
+
+[
+    
+    {
+        "name": "Abalos, Alan Nicolas",
+        "photo":"images/imgDesarrolladores/foto1.jpg",
+        "interests" : "hola tengo 22 años soy estudiante de la unju sueño con hacer videojuegos.",
+        "linktoGit" : "https://github.com/Alancrack13",
+        "years":"22 Años"
+    },
+    {
+        "name": "Cabrera, Fabricio Gaston",
+        "photo":"images/imgDesarrolladores/foto2.jpeg",
+        "interests" : "Fan del Anime ,manga,todo tipo de musica, los juegos un vicioso de toda la vida.",
+        "linktoGit" : "https://github.com/FaBriZiiTo",
+        "years":"28 Años"
+    },
+    {
+        "name": "Cordoba, Juan Brian Joel",
+        "photo":"images/imgDesarrolladores/foto3.png",
+        "interests" : "Me interesa la musica , hacer deportes ,leer comics, los videojuegos, y el ocio de pensar",
+        "linktoGit" : "https://github.com/bjc00285",
+        "years":"27 Años"
+    },
+    {
+        "name": "Macedo, Facundo Emanuel",
+        "photo":"images/imgDesarrolladores/foto4.jpeg",
+        "interests" : "Soy Facundo Macedo, estudié arte en la UNT, me interesa el diseño, desarrollo de videojuegos y el basket.",
+        "linktoGit" : "https://github.com/Makedok7",
+        "years":"24 Años"
+    },
+    {
+        "name": "Palacios, Carlos Javier",
+        "photo":"images/imgDesarrolladores/foto5.jpg",
+        "interests" : "Mi nombre es Carlos Javier Palacios, me gusta escribir, crear historias, jugar y eventualmente programar.",
+        "linktoGit" : "https://github.com/CarlosbienPio",
+        "years":"Numero edad"
+    },
+    {
+        "name": "Sosa, Rodrigo Emanuel Lozano",
+        "photo":"images/imgDesarrolladores/foto6.jpeg",
+        "interests" : "Hola, soy Rodrigo, soy tranquilo, me interesa la programación y los videojuegos.",
+        "linktoGit" : "https://github.com/Rel06",
+        "years":"22 Años"
+    }
+]

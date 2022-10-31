@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Balsamiq+Sans&display=swap');
+.container {
+    background-color: #630fd1;
+    border-radius: 25px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.Titulo {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Lobster, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 1px;
+}
+
+#nav {
+    background-color: rgb(44, 44, 44);
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Acme, Helvetica, sans-serif;
+    padding: 1px 40px;
+}
+
+#nav :hover {
+    background-color: #7a0ed3;
+    color: rgb(41, 41, 41);
+}
+
+#juego {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Lobster, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.link-button {
+    text-decoration: none;
+}
+
+.boton {
+    display: inline-flex;
+    border-radius: 20px;
+    background-color: rgb(192, 21, 21);
+    color: aliceblue;
+    width: 120px;
+    height: 70px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .3s ease all;
+}
+
+.boton:hover {
+    background-color: rgb(255, 225, 55);
+    color: rgb(7, 7, 7);
+}
+
+#img1 {
+    width: 400px;
+    height: 400px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 150px;
+    border: 5px rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(39, 39, 39);
+    font-family: Lobster, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    flex: 0.65;
+    text-align: left;
+}
+
+aside {
+    flex: 0.35;
+    text-align: center;
+    padding: 100px;
+    font-family: Balsamiq Sans;
+    font-size: 20px;
+    background-color: rgb(91, 38, 112);
+    border-radius: 100px;
+}
