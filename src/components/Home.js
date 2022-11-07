@@ -21,7 +21,7 @@ export default function Home() {
                     <dt className="nav-item">Palacios Carlos Javier</dt>
                 </dl>
                 <div id="juego" >
-                    <h1></h1>
+                    <h1>Proyecto Final</h1>
                     <Link to='/juego' className='text-decoration-none'>
                         <button className="boton">Iniciar Juego</button>
                     </Link>

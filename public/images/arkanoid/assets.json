@@ -1,0 +1,24 @@
+{"frames":{
+    "brickBlue":{
+        "frame":{"x":8,"y":8,"w":32,"h":16}
+    },
+    "brickGreen":{
+        "frame":{"x":8,"y":28,"w":32,"h":16}
+    },
+    "brickRed":{
+        "frame":{"x":8,"y":48,"w":32,"h":16}
+    },
+    "brickViolet":{
+        "frame":{"x":8,"y":68,"w":32,"h":16}
+    },
+    "brickOrange":{
+        "frame":{"x":8,"y":88,"w":32,"h":16}
+    },
+    "player":{
+        "frame":{"x":8,"y":151,"w":64,"h":20}
+    },
+    "ball":{
+        "frame":{"x":57,"y":136,"w":8,"h":8}
+    }
+
+}}
