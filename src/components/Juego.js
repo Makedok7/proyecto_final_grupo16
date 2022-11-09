@@ -22,6 +22,11 @@ export default function Juego() {
                         Arkanoid
                     </Link>
             </li>
+            <li className='col bg-success rounded-pill mx-2'>
+                    <Link to='/phaserGame' className='btn-principal wrap'>
+                        Phaser
+                    </Link>
+            </li>
         </div>
     )
 }
