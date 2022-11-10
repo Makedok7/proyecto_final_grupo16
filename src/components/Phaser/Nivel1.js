@@ -14,7 +14,6 @@ class Nivel1 extends Phaser.Scene {
         //Creacion del agujero
         this.hole = this.physics.add.sprite(400,300)
         this.hole.setImmovable()
-        this.hole.setData("speed",100)
         this.hole.setData("force",1000)
         //Creacion de la zona alrededor del agujero
         this.holeZone = this.physics.add.sprite(this.hole.x,this.hole.y)
@@ -22,6 +21,9 @@ class Nivel1 extends Phaser.Scene {
         this.holeZone.setImmovable()
         //Creacion del grupo de enemigos
         this.enemies = this.physics.add.group();
+        this.config.enemySpeed = 150;
+        this.config.enemyTimer = 600
+        this.config.enemyDelay = 3000
 
         this.config.playerLvl = 'Nivel1'
         

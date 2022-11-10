@@ -28,7 +28,10 @@ export default function Juego() {
       },
       parent: 'game',
       playerLvl: '',
-      nextLvl: ''
+      nextLvl: '',
+      enemySpeed: 0,
+      enemyTimer:0,
+      enemyDelay:0,
       
     }
 
