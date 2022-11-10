@@ -13,7 +13,7 @@ export default function Home() {
                     </header>
                 </div>
                 <dl id="nav">
-                    <dt className="nav-item">Ábalos Alan Nicolás</dt>
+                    <dt className="nav-item">Ábalos Alan Nicolas</dt>
                     <dt className="nav-item">Cabrera Fabricio Gastón</dt>
                     <dt className="nav-item">Córdoba Juan Brian Joel</dt>
                     <dt className="nav-item">Lozano Rodrigo Emanuel</dt>
