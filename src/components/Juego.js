@@ -27,6 +27,11 @@ export default function Juego() {
                         Phaser
                     </Link>
             </li>
+            <li className='col bg-success rounded-pill mx-2'>
+                    <Link to='/tateti' className='btn-principal wrap'>
+                        TaTeTi
+                    </Link>
+            </li>
         </div>
     )
 }
