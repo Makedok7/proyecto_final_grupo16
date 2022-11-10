@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Square from './Square';
+import './tateti.css';
+
 
 class Board extends Component {
 
