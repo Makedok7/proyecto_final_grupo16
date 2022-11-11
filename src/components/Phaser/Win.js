@@ -42,6 +42,8 @@ class Win extends Phaser.Scene{
         },this)
         //Actualizacion del score para que se siga sumando a medida que se pasan niveles
         this.config.scoreTotal += this.config.playerScore
+        this.config.playerScore = 0
+        this.scoreText = this.add.text(284, 50, 'Puntuacion: ' + this.config.scoreTotal, { fontSize: '32px', fill: '#FFF' });
     }
 }
 

@@ -39,8 +39,9 @@ class GameOver extends Phaser.Scene{
         this.buttonMenu.on('pointerdown', function (){
             this.scene.start('Menu')
         },this)
+
+        this.add.text(284, 50, 'Tiempo: ' + this.config.loseTime, { fontSize: '32px', fill: '#FFF' });
         //Reinicio de los valores a su estado inicial
-        this.config.playerLife = 3
         this.config.playerScore = this.config.scoreTotal
     }
 }

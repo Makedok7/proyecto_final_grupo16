@@ -53,6 +53,11 @@ class Menu extends Phaser.Scene{
         this.buttonLevel2.on('pointerdown', function (){
             this.scene.start('Nivel2')
         },this)
+
+        this.add.text(75, 10, "Evita la zona alrededor del agujero\nnegro y a los enemigos que aparecen,\n aguanta hasta el tiempo indicado.\n Presion A,D para rotar la nave y \n  W para avanzar hacia adelante, \n       SPACE para disparar.\nCada vez que el enemigo te golpee\nte ira acercando con mas fuerza\n     hacia el agujero negro.", { fontSize: '32px', fill: '#f9bb1d' });
+
+        this.config.scoreTotal = 0;
+        this.config.playerScore = 0;
     }
     
 }

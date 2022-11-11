@@ -8,10 +8,10 @@ class Preload extends Phaser.Scene{
 
     preload() {
         //Ruta de las imagenes
-        this.load.setPath('../images/arkanoid');
+        this.load.setPath('../images/phaser');
         //Carga de las imagenes
         this.load.image('background', 'background.png');
-        this.load.image('menu', 'menu.png');
+        this.load.image('menu', 'menu.jpg');
         this.load.image('gameOver', 'gameOver.jpg');
         this.load.image('win', 'win.jpg');
         this.load.image('level1', 'level1.png');
