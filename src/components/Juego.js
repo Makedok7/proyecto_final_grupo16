@@ -32,6 +32,12 @@ export default function Juego() {
                         TaTeTi
                     </Link>
             </li>
+
+            <li className='col bg-success rounded-pill mx-2'>
+                    <Link to='/tresenraya' className='btn-principal wrap'>
+                        TresEnRaya
+                    </Link>
+            </li>
         </div>
     )
 }

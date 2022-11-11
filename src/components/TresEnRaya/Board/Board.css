@@ -1,0 +1,8 @@
+.boardTER {
+    display: flex;
+    flex-direction: column;
+}
+
+.rowTER {
+    display: flex;
+}
