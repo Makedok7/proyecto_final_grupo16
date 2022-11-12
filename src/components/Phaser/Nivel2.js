@@ -29,7 +29,7 @@ class Nivel2 extends Phaser.Scene {
             moveToX:this.hole.x,
             moveToY:this.hole.y,
             x:-240,
-            y:-50,
+            y:-60,
             lifespan:1000,
             frequency:100,
             alpha:0.6,
