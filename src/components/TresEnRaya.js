@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../components/TresEnRaya/TresEnRaya.css"
+import Nav from "./Nav";
 import Board from "./TresEnRaya/Board/Board.js";
 import ScoreBoard from "./TresEnRaya/ScoreBoard/ScoreBoard";
 
@@ -69,11 +70,15 @@ const Juego = () => {
     }    
 
     return(  //se llama a Board y las funciones turn, squares y  handleClick. Tambien a scoreBoard 
-        <div className="containerTER">
-            <ScoreBoard scoreO={score.O} scoreX={score.X} />
-            <Board winningSquares={winningSquares} turn={turn} squares={squares} onClick={handleClick}/>
-            
+        <div>
+            {Nav()}
+            <div className="containerTER">
+                <ScoreBoard scoreO={score.O} scoreX={score.X} />
+                <Board winningSquares={winningSquares} turn={turn} squares={squares} onClick={handleClick}/>
+                
+            </div>
         </div>
+
     );
 }
 

@@ -23,11 +23,12 @@ export default function Juego() {
       physics: {
         default: 'arcade',
         arcade: {
-          //debug:true,
+          //debug:true, //Muestra los colliders y los vectores 
           gravity: { y: 0 }
         }
       },
-      parent: 'game',
+      parent: 'game',//Se designa como padre al componente con id:game, se usa para establecer el CANVAS del juego en un div
+      //Variables Globales
       playerLvl: '',
       playerScore:0,
       scoreTotal:0,

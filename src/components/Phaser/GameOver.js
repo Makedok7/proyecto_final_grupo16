@@ -15,6 +15,9 @@ class GameOver extends Phaser.Scene{
         this.buttonMenu = this.add.sprite(400,550,'buttons','menu').setInteractive()
         this.buttonReset.setScale(1.5)
         this.buttonMenu.setScale(1.5)
+        //Audio
+        this.sound.setVolume(0.1)
+        this.gameOverSound = this.sound.add('gameOver').play()
         //Animaciones Simples
         this.buttonReset.on('pointerover',function(){
             this.setTint(0x094293)

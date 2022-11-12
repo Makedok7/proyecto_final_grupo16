@@ -16,6 +16,9 @@ class Win extends Phaser.Scene{
         this.buttonMenu = this.add.sprite(400,550,'buttons','menu').setInteractive()
         this.buttonNext.setScale(1.5)
         this.buttonMenu.setScale(1.5)
+        //Sonidos
+        this.sound.setVolume(0.1)
+        this.winSound = this.sound.add('win').play()
         //Animaciones Simples
         this.buttonNext.on('pointerover',function(){
             this.setTint(0x094293)
@@ -43,7 +46,7 @@ class Win extends Phaser.Scene{
         //Actualizacion del score para que se siga sumando a medida que se pasan niveles
         this.config.scoreTotal += this.config.playerScore
         this.config.playerScore = 0
-        this.scoreText = this.add.text(284, 50, 'Puntuacion: ' + this.config.scoreTotal, { fontSize: '32px', fill: '#FFF' });
+        this.scoreText = this.add.text(274, 50, 'Puntuacion: ' + this.config.scoreTotal, { fontSize: '32px', fill: '#FFF' });
     }
 }
 
