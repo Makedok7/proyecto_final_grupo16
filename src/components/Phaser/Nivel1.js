@@ -40,14 +40,14 @@ class Nivel1 extends Phaser.Scene {
         //Creacion del grupo de enemigos
         this.enemies = this.physics.add.group();
         this.config.enemySpeed = 150;
-        this.config.enemyTimer = 600
-        this.config.enemyDelay = 3000
+        this.config.enemyTimer = 600 
+        this.config.enemyDelay = 3000 //ms
         //Creacion del grupo de balas
         this.bullets = this.physics.add.group()
         //Configuracion del nivel
         this.config.playerLvl = 'Nivel1'
         this.config.nextLvl = 'Nivel2'
-        this.config.winTime = 3600
+        this.config.winTime = 3000 //60 = 1seg
         
         this.scene.launch('Play',{player:this.player,hole:this.hole,holeZone:this.holeZone,enemies:this.enemies,bullets:this.bullets,physics:this.physics})
     }

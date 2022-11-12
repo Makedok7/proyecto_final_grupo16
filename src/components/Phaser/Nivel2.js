@@ -14,7 +14,7 @@ class Nivel2 extends Phaser.Scene {
         this.player.setScale(1.5)
         this.player.setCollideWorldBounds(true);
         //Creacion del agujero
-        this.hole = this.physics.add.sprite(400,100,'assets','hole')
+        this.hole = this.physics.add.sprite(400,300,'assets','hole')
         this.hole.setImmovable()
         this.hole.setData("force",1000)
         this.hole.setBlendMode('ERASE')
@@ -43,13 +43,13 @@ class Nivel2 extends Phaser.Scene {
         this.enemies = this.physics.add.group();
         this.config.enemySpeed = 150;
         this.config.enemyTimer = 600
-        this.config.enemyDelay = 3000
+        this.config.enemyDelay = 3000 //ms
         //Creacion del grupo de balas
         this.bullets = this.physics.add.group()
         //Configuracion del nivel
         this.config.playerLvl = 'Nivel2'
         this.config.nextLvl = 'Menu'
-        this.config.winTime = 3600
+        this.config.winTime = 3000 //60 = 1seg
         
         this.scene.launch('Play',{player:this.player,hole:this.hole,holeZone:this.holeZone,enemies:this.enemies,bullets:this.bullets,physics:this.physics})
     }
