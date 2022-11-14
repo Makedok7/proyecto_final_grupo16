@@ -28,7 +28,7 @@ export default function Home() {
                 </div>
                 <div className="row ">
                     <section id="img1" className='col'>
-                        <img src="../images/home.jpg" width="350" height="350" alt="LogoHome" className='img-fluid rounded' />
+                        <img src="../images/home.jpg" width="350" height="350" alt="LogoHome" className='img-fluid rounded-circle' />
                     </section>
                 </div>
             </div>

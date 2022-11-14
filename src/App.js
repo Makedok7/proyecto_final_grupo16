@@ -7,7 +7,6 @@ import Ahorcadito from './components/Ahorcadito.js';
 import Arkanoid from './components/Arkanoid/Juego.js';
 import PhaserGame from './components/Phaser/Juego.js'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import TaTeTi from './components/TaTeTi/TaTeTi';
 import TresEnRaya from './components/TresEnRaya.js';
 
 export default function App() {
@@ -22,7 +21,6 @@ export default function App() {
         <Route path='/ahorcadito' element={<Ahorcadito />} />;
         <Route path='/arkanoid' element={<Arkanoid />} />;
         <Route path='/phaserGame' element={<PhaserGame />} />;
-        <Route path='/tateti' element={<TaTeTi />} />;
         <Route path='/tresenraya' element={<TresEnRaya />} />;
       </Routes>
     </Router>
