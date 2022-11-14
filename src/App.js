@@ -6,8 +6,9 @@ import PiedraPapelTijeras from './components/PiedraPapelTijeras.js';
 import Ahorcadito from './components/Ahorcadito.js';
 import Arkanoid from './components/Arkanoid/Juego.js';
 import PhaserGame from './components/Phaser/Juego.js'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import TresEnRaya from './components/TresEnRaya.js';
+import DudeGame from './components/Dude/Dude.js';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
         <Route path='/arkanoid' element={<Arkanoid />} />;
         <Route path='/phaserGame' element={<PhaserGame />} />;
         <Route path='/tresenraya' element={<TresEnRaya />} />;
+        <Route path='/dude' element={<DudeGame />} />;
       </Routes>
     </Router>
   );
