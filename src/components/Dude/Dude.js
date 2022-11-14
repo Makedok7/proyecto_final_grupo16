@@ -2,6 +2,7 @@ import Phaser from 'phaser';
 import { useState, useEffect } from 'react';
 import Preload from './Preload';
 import Escena from './Escena';
+import Nav from '../Nav';
 
 function Juego() {
 
@@ -20,6 +21,7 @@ function Juego() {
                     debug: false
                 }
             },
+            parent:'game',
 
             scene: [Preload, Escena]
 
@@ -37,7 +39,15 @@ function Juego() {
             game.destroy(true);
         }
 
-    }, [listo]);       
+    }, [listo]);     
+    return (
+        <div className='bg-dark' style={{ height: "1000px" }}>
+          {Nav()}
+          <div id='game' className='text-center'></div>
+          <div className='text-center'>
+            <button type='button' className='btn btn-primary' onClick={() => setListo(true)}>Reset</button>
+          </div>
+        </div>)  
    
 }
 export default Juego;
