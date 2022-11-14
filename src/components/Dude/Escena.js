@@ -82,6 +82,7 @@ class Escena extends Phaser.Scene {
         });
         //se le agrega musica
         this.sonido = this.sound.add('musica');
+        this.sound.setVolume(0.1)
         const soundConfig = {
             volume: 1,
             loop: true
